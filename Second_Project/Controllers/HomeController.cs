@@ -16,8 +16,7 @@ namespace Second_Project.Controllers
         }
 
         public IActionResult Index()
-        {
-            
+        {           
             var test=_context.Doctors.OrderByDescending(x=>x.Id).First();
             return View(test);
         }
@@ -29,6 +28,11 @@ namespace Second_Project.Controllers
         public IActionResult About()
         {
             return View();
+        }
+        public IActionResult Doctor()
+        {
+            var test = _context.Doctors.ToList();
+            return View(test);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

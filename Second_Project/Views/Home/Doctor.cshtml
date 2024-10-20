@@ -1,0 +1,51 @@
+﻿@* @model List<Doctor>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Specialization</th>
+            <th>Qualification</th>
+            <th>NMC Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var doctor in Model)
+        {
+            <tr>
+                <td>@doctor.FirstName</td>
+                <td>@doctor.LastName</td>
+                <td>@doctor.Specification</td>
+                <td>@doctor.Qualification</td>
+                <td>@doctor.NMC_Number</td>
+            </tr>
+        }
+    </tbody>
+</table>
+ *@
+ @model List<Doctor>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Specialization</th>
+            <th>Qualification</th>
+            <th>NMC Number</th>
+        </tr>
+    </thead>
+    <tbody>  
+        @foreach(var doctor in Model)
+        {
+            <tr>
+                <td>@doctor.FirstName</td>
+            <td>@doctor.LastName</td>
+                <td>@doctor.Specification</td>
+                <td>@doctor.Qualification</td>
+                <td>@doctor.NMC_Number</td>
+            </tr>
+        }
+    </tbody>
+</table>

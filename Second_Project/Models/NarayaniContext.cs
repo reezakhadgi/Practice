@@ -9,6 +9,7 @@ namespace Second_Project.Models
             public NarayaniContext(DbContextOptions<NarayaniContext> options)
                 : base(options)
             {
+           
             }
-        }
+    }
 }
