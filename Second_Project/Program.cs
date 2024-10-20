@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Second_Project.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<NarayaniContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("NarayaniDb")));
 
 var app = builder.Build();
 
