@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\Second_Project\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\DotNet Projects\\Practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|d:\\dotnet projects\\practice\\second_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|solutionrelative:second_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|d:\\dotnet projects\\practice\\second_project\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|solutionrelative:second_project\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|d:\\dotnet projects\\practice\\second_project\\second_project.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|solutionrelative:second_project\\second_project.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|d:\\dotnet projects\\practice\\second_project\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|solutionrelative:second_project\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|d:\\dotnet projects\\practice\\second_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|solutionrelative:second_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|d:\\dotnet projects\\practice\\second_project\\second_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|solutionrelative:second_project\\second_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|d:\\dotnet projects\\practice\\second_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A142E03-3306-4C0F-ACF6-AECC53AC4D98}|Second_Project\\Second_Project.csproj|solutionrelative:second_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\DotNet Projects\\Practice\\Second_Project\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Second_Project\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\DotNet Projects\\Practice\\Second_Project\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Second_Project\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T10:18:46.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DotNet Projects\\Practice\\Second_Project\\appsettings.json",
+              "RelativeDocumentMoniker": "Second_Project\\appsettings.json",
+              "ToolTip": "D:\\DotNet Projects\\Practice\\Second_Project\\appsettings.json",
+              "RelativeToolTip": "Second_Project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T09:54:25.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Second_Project",
+              "DocumentMoniker": "D:\\DotNet Projects\\Practice\\Second_Project\\Second_Project.csproj",
+              "RelativeDocumentMoniker": "Second_Project\\Second_Project.csproj",
+              "ToolTip": "D:\\DotNet Projects\\Practice\\Second_Project\\Second_Project.csproj",
+              "RelativeToolTip": "Second_Project\\Second_Project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-20T09:43:54.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Second_Project",
+              "DocumentMoniker": "D:\\DotNet Projects\\Practice\\Second_Project\\Second_Project.csproj",
+              "RelativeDocumentMoniker": "Second_Project\\Second_Project.csproj",
+              "ToolTip": "D:\\DotNet Projects\\Practice\\Second_Project\\Second_Project.csproj",
+              "RelativeToolTip": "Second_Project\\Second_Project.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-20T09:48:02.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\DotNet Projects\\Practice\\Second_Project\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Second_Project\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\DotNet Projects\\Practice\\Second_Project\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Second_Project\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T09:12:32.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DotNet Projects\\Practice\\Second_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Second_Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DotNet Projects\\Practice\\Second_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Second_Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T09:11:42.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\DotNet Projects\\Practice\\Second_Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Second_Project\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DotNet Projects\\Practice\\Second_Project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Second_Project\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T09:11:38.503Z",
+              "EditorCaption": ""
             }
           ]
         }
