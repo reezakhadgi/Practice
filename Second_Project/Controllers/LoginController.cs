@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Second_Project.Viewmodels;
 
 namespace Second_Project.Controllers
 {
+   
     public class LoginController : Controller
     {
 
@@ -90,6 +92,11 @@ namespace Second_Project.Controllers
                 }
             }
             return View(model);
+        }
+        public async Task<IActionResult> Logout()
+        {
+           await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
         }
 
     }
