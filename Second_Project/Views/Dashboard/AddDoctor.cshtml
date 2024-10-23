@@ -1,0 +1,47 @@
+﻿@{Layout="~/views/shared/_DashboardLayout.cshtml";}
+<div class="container mt-4">
+    <h2 class="mb-4">Add Doctor Details</h2>
+
+    <form asp-action="AddDoctor" method="post">
+        <div class="row mb-3">
+            <label for="FirstName" class="col-sm-2 col-form-label">First Name</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="Enter First Name" required>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="LastName" class="col-sm-2 col-form-label">Last Name</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Enter Last Name" required>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="Specification" class="col-sm-2 col-form-label">Specification</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="Specification" name="Specification" placeholder="Enter Specification" required>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="Qualification" class="col-sm-2 col-form-label">Qualification</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="Qualification" name="Qualification" placeholder="Enter Qualification" required>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="NMC_Number" class="col-sm-2 col-form-label">NMC Number</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="NMC_Number" name="NMC_Number" placeholder="Enter NMC Number" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-10 offset-sm-2">
+                <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>

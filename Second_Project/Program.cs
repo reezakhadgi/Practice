@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Second_Project.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,8 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("NarayaniDb")));
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<NarayaniContext>()
     .AddDefaultTokenProviders();
+
+
 
 var app = builder.Build();
 
