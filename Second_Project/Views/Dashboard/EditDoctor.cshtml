@@ -1,0 +1,35 @@
+﻿@{
+    Layout = "~/views/shared/_DashboardLayout.cshtml";
+}
+
+<h2>Edit Doctor Details</h2>
+
+<form asp-action="EditDoctor" method="post">
+    <div class="form-group">
+        <label for="FirstName">First Name</label>
+        <input type="text" class="form-control" id="FirstName" name="FirstName" value="@Model.FirstName" required>
+    </div>
+
+    <div class="form-group">
+        <label for="LastName">Last Name</label>
+        <input type="text" class="form-control" id="LastName" name="LastName" value="@Model.LastName" required>
+    </div>
+
+    <div class="form-group">
+        <label for="Specification">Specification</label>
+        <input type="text" class="form-control" id="Specification" name="Specification" value="@Model.Specification" required>
+    </div>
+
+    <div class="form-group">
+        <label for="Qualification">Qualification</label>
+        <input type="text" class="form-control" id="Qualification" name="Qualification" value="@Model.Qualification" required>
+    </div>
+
+    <div class="form-group">
+        <label for="NMC_Number">NMC Number</label>
+        <input type="text" class="form-control" id="NMC_Number" name="NMC_Number" value="@Model.NMC_Number" required>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save Changes</button>
+    <a href="@Url.Action("Index", "Dashboard")" class="btn btn-secondary">Cancel</a>
+</form>

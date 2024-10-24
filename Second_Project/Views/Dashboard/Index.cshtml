@@ -18,7 +18,7 @@
             <th>Specialization</th>
             <th>Qualification</th>
             <th>NMC Number</th>
-            <th>Upade/Delete</th>
+            <th>Edit/Delete</th>
         </tr>
     </thead>
     <tbody>
@@ -31,7 +31,7 @@
                 <td>@doctor.Qualification</td>
                 <td>@doctor.NMC_Number</td>
                 <td>
-                    <a asp-controller="Dashboard" asp-action="UpdateDoctor" class="btn btn-primary">Update</a> &nbsp; <form asp-controller="Dashboard" asp-action="DeleteDoctor" method="post" style="display:inline;">
+                    <a href="@Url.Action("EditDoctor", "Dashboard", new { id = doctor.Id })" class="btn btn-warning btn-sm">Edit</a> &nbsp; <form asp-controller="Dashboard" asp-action="DeleteDoctor" method="post" style="display:inline;">
                         <input type="hidden" name="id" value="@doctor.Id" />
                         <button type="submit" class="btn btn-danger btn-sm">Delete</button>
                     </form>
