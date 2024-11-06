@@ -11,5 +11,6 @@ namespace Second_Project.Models
             public string Specification { get; set; }
             public string Qualification { get; set; }
             public int NMC_Number { get; set; }
+        public ICollection<Patient> Patients { get; set;}
     }
 }

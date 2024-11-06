@@ -1,5 +1,5 @@
 ﻿@{
-    Layout="~/views/shared/_DashboardLayout.cshtml";
+    Layout = "~/views/shared/_DashboardLayout.cshtml";
     ViewData["Title"] = "Dashboard";
 }
  @model List<Doctor>
@@ -8,7 +8,7 @@
 
 
  <h4>Doctors List</h4>
-<a asp-controller="Dashboard" asp-action="AddDoctor" class="btn btn-primary">Add Doctors</a>
+<a asp-controller="Doctor" asp-action="AddDoctor" class="btn btn-primary">Add Doctors</a>
 
 <table class="table">
     <thead>
@@ -24,19 +24,19 @@
     <tbody>
         @foreach (var doctor in Model)
         {
-            <tr>
-                <td>@doctor.FirstName</td>
-                <td>@doctor.LastName</td>
-                <td>@doctor.Specification</td>
-                <td>@doctor.Qualification</td>
-                <td>@doctor.NMC_Number</td>
-                <td>
-                    <a href="@Url.Action("EditDoctor", "Dashboard", new { id = doctor.Id })" class="btn btn-warning btn-sm">Edit</a> &nbsp; <form asp-controller="Dashboard" asp-action="DeleteDoctor" method="post" style="display:inline;">
-                        <input type="hidden" name="id" value="@doctor.Id" />
-                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
-                    </form>
-                </td>
-            </tr>
+                <tr>
+                    <td>@doctor.FirstName</td>
+                    <td>@doctor.LastName</td>
+                    <td>@doctor.Specification</td>
+                    <td>@doctor.Qualification</td>
+                    <td>@doctor.NMC_Number</td>
+                    <td>
+                        <a href="@Url.Action("EditDoctor", "Doctor", new { id = doctor.Id })" class="btn btn-warning btn-sm">Edit</a> &nbsp; <form asp-controller="Doctor" asp-action="DeleteDoctor" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@doctor.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                </tr>
         }
     </tbody>
 </table>

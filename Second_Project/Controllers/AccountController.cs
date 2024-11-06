@@ -6,13 +6,13 @@ using Second_Project.Viewmodels;
 namespace Second_Project.Controllers
 {
    
-    public class LoginController : Controller
+    public class AccountController : Controller
     {
 
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
 
-        public LoginController(SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager)
+        public AccountController(SignInManager<IdentityUser> signInManager, UserManager<IdentityUser> userManager)
         {
             _signInManager = signInManager;
             _userManager = userManager;
@@ -20,7 +20,7 @@ namespace Second_Project.Controllers
 
         public IActionResult Index()
         {
-            return View(); // This will return the Index.cshtml view in Views/Login/
+            return View("~/Views/Login/Index.cshtml"); // This will return the Index.cshtml view in Views/Login/
         }
 
         //// Handle form submission
@@ -41,14 +41,14 @@ namespace Second_Project.Controllers
         // Authenticate action
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Authenticate(string username, string password)
+        public async Task<IActionResult> Login(string username, string password)
         {
             // Find the user by username
             var user = await _userManager.FindByNameAsync(username);
             if (user == null)
             {
                 ViewBag.ErrorMessage = "Invalid username or password.";
-                return View("Login"); // Return the login view with an error
+                return View("Account"); // Return the login view with an error
             }
 
             // Attempt to sign in
